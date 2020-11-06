@@ -10,7 +10,11 @@
 #endif
 #endif
 
-#import "WNJTest.h"
+#import "UIColor+WNJChannelHelper.h"
+#import "UIImage+WNJBundle.h"
+#import "WNJChannelEditController.h"
+#import "WNJChannelUnitModel.h"
+#import "WNJTouchView.h"
 
 FOUNDATION_EXPORT double WNJChannelEditControllerVersionNumber;
 FOUNDATION_EXPORT const unsigned char WNJChannelEditControllerVersionString[];

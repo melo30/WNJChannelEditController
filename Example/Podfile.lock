@@ -1,15 +1,22 @@
 PODS:
-  - WNJChannelEditController (0.1.0)
+  - Masonry (1.1.0)
+  - WNJChannelEditController (0.1.0):
+    - Masonry
 
 DEPENDENCIES:
   - WNJChannelEditController (from `../`)
+
+SPEC REPOS:
+  https://cdn.cocoapods.org/:
+    - Masonry
 
 EXTERNAL SOURCES:
   WNJChannelEditController:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WNJChannelEditController: a1fcd7f17bdbfff190fa3c2febfa6f461e5bd03f
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  WNJChannelEditController: 86165f0127ee1613b9eecf13a0ff10bd49901817
 
 PODFILE CHECKSUM: d0bcd9bd57a8d37e47a714d40eed469d317f97ee
 

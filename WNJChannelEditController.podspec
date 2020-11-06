@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WNJChannelEditController'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '智慧怒江项目频道编辑库'
 
 # This description is used to generate tags and improve search results.
@@ -32,11 +32,12 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'WNJChannelEditController/Classes/**/*'
   
-   #s.resource_bundles = {
-   # 'WNJChannelEditController' => ['WNJChannelEditController/Assets/*.{png,xib,xcassets,txt}']
-   #}
+   s.resource_bundles = {
+    'WNJChannelEditController' => ['WNJChannelEditController/Assets/*.{png,xib,xcassets,txt}']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Masonry'
 end
