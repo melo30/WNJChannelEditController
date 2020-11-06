@@ -1,0 +1,6 @@
+framework module WNJChannelEditController {
+  umbrella header "WNJChannelEditController-umbrella.h"
+
+  export *
+  module * { export * }
+}

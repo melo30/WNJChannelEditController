@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'WNJChannelEditController'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of WNJChannelEditController.'
+  s.summary          = '智慧怒江项目频道编辑库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'WNJChannelEditController/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'WNJChannelEditController' => ['WNJChannelEditController/Assets/*.png']
-  # }
+   #s.resource_bundles = {
+   # 'WNJChannelEditController' => ['WNJChannelEditController/Assets/*.{png,xib,xcassets,txt}']
+   #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

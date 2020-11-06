@@ -1,0 +1,6 @@
+framework module Pods_WNJChannelEditController_Tests {
+  umbrella header "Pods-WNJChannelEditController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

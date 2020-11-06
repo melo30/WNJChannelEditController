@@ -1,0 +1,16 @@
+PODS:
+  - WNJChannelEditController (0.1.0)
+
+DEPENDENCIES:
+  - WNJChannelEditController (from `../`)
+
+EXTERNAL SOURCES:
+  WNJChannelEditController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WNJChannelEditController: a1fcd7f17bdbfff190fa3c2febfa6f461e5bd03f
+
+PODFILE CHECKSUM: d0bcd9bd57a8d37e47a714d40eed469d317f97ee
+
+COCOAPODS: 1.9.3

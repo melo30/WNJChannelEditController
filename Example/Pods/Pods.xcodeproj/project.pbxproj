@@ -1,0 +1,872 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07320611B630E1414275CC95F31BEAC9 /* WNJChannelEditController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 82B02B14E7BFAEEAF42ACA1B3F134C47 /* WNJChannelEditController.bundle */; };
+		0B386D0D6309D9D3A1064DC0497CB98A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		10419EF64989B52DED493C1415663B9A /* Pods-WNJChannelEditController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77C31325BEA627657F054E95FEC241E4 /* Pods-WNJChannelEditController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39DEA1816DB95AA18615779E3C772A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4446B14A04D99F0EDD105CD778481C29 /* WNJChannelEditController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E9013E345581AB264991B20177EE96F /* WNJChannelEditController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45189C8A238B314F597EA1C7776AC775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8ED4B3C94EFD7529C29CCA5758845912 /* WNJTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A922BDF130DF862AB5D1D11E3944B0B /* WNJTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C26C534F6164405BE2078EE116BE0905 /* WNJChannelEditController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 090462E77D931C0DF825C93DBEFE3690 /* WNJChannelEditController-dummy.m */; };
+		DB8AAEEAC49DE7C1513426D0E14A5F41 /* Pods-WNJChannelEditController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A6D3858708294644145733989AED18 /* Pods-WNJChannelEditController_Tests-dummy.m */; };
+		E0AD71E18C088913F414D2D77CD61CE9 /* Pods-WNJChannelEditController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD109DFC6EA4E446304060160A3FD6F /* Pods-WNJChannelEditController_Example-dummy.m */; };
+		E6AF0448485BFC10A15B5B4998811031 /* WNJTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C889340405FA6E2499F4037454DC0A88 /* WNJTest.m */; };
+		FDD9F282C6E299249D616FD24672FB2D /* Pods-WNJChannelEditController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54A55FF0F129A50056D51C53FB58E5C6 /* Pods-WNJChannelEditController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F34E712E7D3FBE466BDD7CD928EFCDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A56F21C19F7B66775771DCE7859187B9;
+			remoteInfo = WNJChannelEditController;
+		};
+		50599320B9BC9DFDE7BF5B61DC3A147D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B11B780D7CC1EF3607CF364AAFAB2D8B;
+			remoteInfo = "Pods-WNJChannelEditController_Example";
+		};
+		DEB2644BDA4C0D53B897E49F5393B916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC412B9B50BB87A5020AE4B84149DE0F;
+			remoteInfo = "WNJChannelEditController-WNJChannelEditController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		075D3212410F64388E6AD06337CE214E /* Pods-WNJChannelEditController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WNJChannelEditController_Tests-Info.plist"; sourceTree = "<group>"; };
+		090462E77D931C0DF825C93DBEFE3690 /* WNJChannelEditController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WNJChannelEditController-dummy.m"; sourceTree = "<group>"; };
+		12DFDAB99B87D1D75F40C3B69126A1AC /* Pods-WNJChannelEditController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WNJChannelEditController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1C4C4FA32B72CD4FDD0B2270616D698E /* Pods-WNJChannelEditController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WNJChannelEditController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		29A6D3858708294644145733989AED18 /* Pods-WNJChannelEditController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WNJChannelEditController_Tests-dummy.m"; sourceTree = "<group>"; };
+		2DFA3B7FD53B2ACF30E98EB157091910 /* Pods_WNJChannelEditController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WNJChannelEditController_Example.framework; path = "Pods-WNJChannelEditController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		375D5774AF0B7C0D4247CCE649DE3701 /* WNJChannelEditController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WNJChannelEditController.modulemap; sourceTree = "<group>"; };
+		3D02F3EE7297707B68691040E4A9147D /* ResourceBundle-WNJChannelEditController-WNJChannelEditController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WNJChannelEditController-WNJChannelEditController-Info.plist"; sourceTree = "<group>"; };
+		50B05D438EB939CB090BA6ABE1850D27 /* Pods-WNJChannelEditController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WNJChannelEditController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		54A55FF0F129A50056D51C53FB58E5C6 /* Pods-WNJChannelEditController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WNJChannelEditController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		59286E127246701328414C003576BD25 /* WNJChannelEditController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WNJChannelEditController.framework; path = WNJChannelEditController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59626BE8027944172B876AB069DA3AF9 /* WNJChannelEditController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WNJChannelEditController-prefix.pch"; sourceTree = "<group>"; };
+		5A922BDF130DF862AB5D1D11E3944B0B /* WNJTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WNJTest.h; path = WNJChannelEditController/Classes/WNJTest.h; sourceTree = "<group>"; };
+		5E9013E345581AB264991B20177EE96F /* WNJChannelEditController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WNJChannelEditController-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77C31325BEA627657F054E95FEC241E4 /* Pods-WNJChannelEditController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WNJChannelEditController_Example-umbrella.h"; sourceTree = "<group>"; };
+		77DC2ECFA94E3B26D9F688C0A9BC26EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7E4494EBA0E8F9605B6ED192826E415E /* WNJChannelEditController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WNJChannelEditController-Info.plist"; sourceTree = "<group>"; };
+		82B02B14E7BFAEEAF42ACA1B3F134C47 /* WNJChannelEditController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WNJChannelEditController.bundle; path = "WNJChannelEditController-WNJChannelEditController.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83EAED2958BCB6B588EE74362BC5B4D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8665561A58DEA558366DCC8333DB3874 /* Pods-WNJChannelEditController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WNJChannelEditController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		88657514780DFCEAE8329B6EC4658476 /* WNJChannelEditController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WNJChannelEditController.release.xcconfig; sourceTree = "<group>"; };
+		89425B62E87DB90EED0D928DC758D299 /* Pods-WNJChannelEditController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WNJChannelEditController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A38E92E7FF83AAA3D29455781C33AEBF /* Pods-WNJChannelEditController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WNJChannelEditController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B638F7358F0097CC860426C5A0965B14 /* Pods-WNJChannelEditController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WNJChannelEditController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C16B8A06DA33656A6598622A2740CB26 /* Pods-WNJChannelEditController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WNJChannelEditController_Example-Info.plist"; sourceTree = "<group>"; };
+		C889340405FA6E2499F4037454DC0A88 /* WNJTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WNJTest.m; path = WNJChannelEditController/Classes/WNJTest.m; sourceTree = "<group>"; };
+		CB4EFB45115FD6F0FDC1216BBEC97D80 /* WNJChannelEditController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WNJChannelEditController.debug.xcconfig; sourceTree = "<group>"; };
+		D7B21B04AC4BD9961FA9933808CF39E7 /* WNJChannelEditController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WNJChannelEditController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DAD109DFC6EA4E446304060160A3FD6F /* Pods-WNJChannelEditController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WNJChannelEditController_Example-dummy.m"; sourceTree = "<group>"; };
+		DD8EAD6C9FA35151FAF7533E77E86A0B /* Pods-WNJChannelEditController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WNJChannelEditController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EA73CD46C80CDE97F6102F02F32649CF /* Pods-WNJChannelEditController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WNJChannelEditController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F1B05B2F05D8C774E34EDC1E316C1ECD /* Pods_WNJChannelEditController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WNJChannelEditController_Tests.framework; path = "Pods-WNJChannelEditController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C01C1512D78D4ECD450EAFAFC903BD /* Pods-WNJChannelEditController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WNJChannelEditController_Example.modulemap"; sourceTree = "<group>"; };
+		F5EEFC554D994DA7409677283DED698E /* Pods-WNJChannelEditController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WNJChannelEditController_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A2DFEFFDCC303C15627299960518236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B386D0D6309D9D3A1064DC0497CB98A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D98F0EAC0CF229F3739CEC4CD5840F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45189C8A238B314F597EA1C7776AC775 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE377BEF0A580A268B6707CE09FDAF2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DEA1816DB95AA18615779E3C772A09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA39DF1C580A029BB7E4058BBC8B525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18BA12FF5264E945CBBB5C8D6AC2E5E7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				83EAED2958BCB6B588EE74362BC5B4D1 /* LICENSE */,
+				77DC2ECFA94E3B26D9F688C0A9BC26EC /* README.md */,
+				D7B21B04AC4BD9961FA9933808CF39E7 /* WNJChannelEditController.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7305412BF508867753D8B39F7EC4C808 /* Pods-WNJChannelEditController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F5EEFC554D994DA7409677283DED698E /* Pods-WNJChannelEditController_Tests.modulemap */,
+				B638F7358F0097CC860426C5A0965B14 /* Pods-WNJChannelEditController_Tests-acknowledgements.markdown */,
+				12DFDAB99B87D1D75F40C3B69126A1AC /* Pods-WNJChannelEditController_Tests-acknowledgements.plist */,
+				29A6D3858708294644145733989AED18 /* Pods-WNJChannelEditController_Tests-dummy.m */,
+				075D3212410F64388E6AD06337CE214E /* Pods-WNJChannelEditController_Tests-Info.plist */,
+				54A55FF0F129A50056D51C53FB58E5C6 /* Pods-WNJChannelEditController_Tests-umbrella.h */,
+				89425B62E87DB90EED0D928DC758D299 /* Pods-WNJChannelEditController_Tests.debug.xcconfig */,
+				1C4C4FA32B72CD4FDD0B2270616D698E /* Pods-WNJChannelEditController_Tests.release.xcconfig */,
+			);
+			name = "Pods-WNJChannelEditController_Tests";
+			path = "Target Support Files/Pods-WNJChannelEditController_Tests";
+			sourceTree = "<group>";
+		};
+		87A0C9064E8E584983519E7A15CC03B6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D02F3EE7297707B68691040E4A9147D /* ResourceBundle-WNJChannelEditController-WNJChannelEditController-Info.plist */,
+				375D5774AF0B7C0D4247CCE649DE3701 /* WNJChannelEditController.modulemap */,
+				090462E77D931C0DF825C93DBEFE3690 /* WNJChannelEditController-dummy.m */,
+				7E4494EBA0E8F9605B6ED192826E415E /* WNJChannelEditController-Info.plist */,
+				59626BE8027944172B876AB069DA3AF9 /* WNJChannelEditController-prefix.pch */,
+				5E9013E345581AB264991B20177EE96F /* WNJChannelEditController-umbrella.h */,
+				CB4EFB45115FD6F0FDC1216BBEC97D80 /* WNJChannelEditController.debug.xcconfig */,
+				88657514780DFCEAE8329B6EC4658476 /* WNJChannelEditController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WNJChannelEditController";
+			sourceTree = "<group>";
+		};
+		9EFE5F444BF8EB161CF57FB42C5980B8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1F26685FB46937CC60C348CF58F01F7 /* Pods-WNJChannelEditController_Example */,
+				7305412BF508867753D8B39F7EC4C808 /* Pods-WNJChannelEditController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A18D4B684F2449A49531C2211D338309 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DFA3B7FD53B2ACF30E98EB157091910 /* Pods_WNJChannelEditController_Example.framework */,
+				F1B05B2F05D8C774E34EDC1E316C1ECD /* Pods_WNJChannelEditController_Tests.framework */,
+				82B02B14E7BFAEEAF42ACA1B3F134C47 /* WNJChannelEditController.bundle */,
+				59286E127246701328414C003576BD25 /* WNJChannelEditController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD00157630AE96FCA26B33AB10B7E306 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E14B3804C1A5A5DF0D921C053BBF0B7A /* WNJChannelEditController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B1F26685FB46937CC60C348CF58F01F7 /* Pods-WNJChannelEditController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F2C01C1512D78D4ECD450EAFAFC903BD /* Pods-WNJChannelEditController_Example.modulemap */,
+				A38E92E7FF83AAA3D29455781C33AEBF /* Pods-WNJChannelEditController_Example-acknowledgements.markdown */,
+				EA73CD46C80CDE97F6102F02F32649CF /* Pods-WNJChannelEditController_Example-acknowledgements.plist */,
+				DAD109DFC6EA4E446304060160A3FD6F /* Pods-WNJChannelEditController_Example-dummy.m */,
+				8665561A58DEA558366DCC8333DB3874 /* Pods-WNJChannelEditController_Example-frameworks.sh */,
+				C16B8A06DA33656A6598622A2740CB26 /* Pods-WNJChannelEditController_Example-Info.plist */,
+				77C31325BEA627657F054E95FEC241E4 /* Pods-WNJChannelEditController_Example-umbrella.h */,
+				50B05D438EB939CB090BA6ABE1850D27 /* Pods-WNJChannelEditController_Example.debug.xcconfig */,
+				DD8EAD6C9FA35151FAF7533E77E86A0B /* Pods-WNJChannelEditController_Example.release.xcconfig */,
+			);
+			name = "Pods-WNJChannelEditController_Example";
+			path = "Target Support Files/Pods-WNJChannelEditController_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				AD00157630AE96FCA26B33AB10B7E306 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A18D4B684F2449A49531C2211D338309 /* Products */,
+				9EFE5F444BF8EB161CF57FB42C5980B8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E14B3804C1A5A5DF0D921C053BBF0B7A /* WNJChannelEditController */ = {
+			isa = PBXGroup;
+			children = (
+				5A922BDF130DF862AB5D1D11E3944B0B /* WNJTest.h */,
+				C889340405FA6E2499F4037454DC0A88 /* WNJTest.m */,
+				18BA12FF5264E945CBBB5C8D6AC2E5E7 /* Pod */,
+				87A0C9064E8E584983519E7A15CC03B6 /* Support Files */,
+			);
+			name = WNJChannelEditController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E9F18ED510A74529756EC7AA87C1BB0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD9F282C6E299249D616FD24672FB2D /* Pods-WNJChannelEditController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56C5E25604CC7CD10C25243CE649AD4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4446B14A04D99F0EDD105CD778481C29 /* WNJChannelEditController-umbrella.h in Headers */,
+				8ED4B3C94EFD7529C29CCA5758845912 /* WNJTest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F2BD40AA4A7B841E974A707BF2EE99 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10419EF64989B52DED493C1415663B9A /* Pods-WNJChannelEditController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A56F21C19F7B66775771DCE7859187B9 /* WNJChannelEditController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD6026FE7D427B006319B5BABDA3E86D /* Build configuration list for PBXNativeTarget "WNJChannelEditController" */;
+			buildPhases = (
+				56C5E25604CC7CD10C25243CE649AD4B /* Headers */,
+				1F1A44ABFC2D66D597CF141AED86BBC7 /* Sources */,
+				DE377BEF0A580A268B6707CE09FDAF2A /* Frameworks */,
+				62AE8E7631A490790EDF5AB1753ABAC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70C85DFFA247F19133A18CAE1852AB3E /* PBXTargetDependency */,
+			);
+			name = WNJChannelEditController;
+			productName = WNJChannelEditController;
+			productReference = 59286E127246701328414C003576BD25 /* WNJChannelEditController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A78FA3C9BE2E9D587C498F9B9F5B5431 /* Pods-WNJChannelEditController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C66140F14DD5E67D60028A3866A142D1 /* Build configuration list for PBXNativeTarget "Pods-WNJChannelEditController_Tests" */;
+			buildPhases = (
+				1E9F18ED510A74529756EC7AA87C1BB0 /* Headers */,
+				5554582DB4BF35C44CCA0A5177843493 /* Sources */,
+				79D98F0EAC0CF229F3739CEC4CD5840F /* Frameworks */,
+				EC95F43A58206DE3B7BEF84F88330CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62E11D5283E04B3865075EBE6A089EAC /* PBXTargetDependency */,
+			);
+			name = "Pods-WNJChannelEditController_Tests";
+			productName = "Pods-WNJChannelEditController_Tests";
+			productReference = F1B05B2F05D8C774E34EDC1E316C1ECD /* Pods_WNJChannelEditController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B11B780D7CC1EF3607CF364AAFAB2D8B /* Pods-WNJChannelEditController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7A0AD4279E9401903C0E1BDF6C4EEC7 /* Build configuration list for PBXNativeTarget "Pods-WNJChannelEditController_Example" */;
+			buildPhases = (
+				69F2BD40AA4A7B841E974A707BF2EE99 /* Headers */,
+				1A3537E60273729E23B9B7B28CDF0B39 /* Sources */,
+				4A2DFEFFDCC303C15627299960518236 /* Frameworks */,
+				645D9CBB59E28884048CDEC75AAB6D06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09F3B899C7BF8BEA4BFCB760D5FF476B /* PBXTargetDependency */,
+			);
+			name = "Pods-WNJChannelEditController_Example";
+			productName = "Pods-WNJChannelEditController_Example";
+			productReference = 2DFA3B7FD53B2ACF30E98EB157091910 /* Pods_WNJChannelEditController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC412B9B50BB87A5020AE4B84149DE0F /* WNJChannelEditController-WNJChannelEditController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E6BB8FC0662AD76EC0C028D0AAD84F8 /* Build configuration list for PBXNativeTarget "WNJChannelEditController-WNJChannelEditController" */;
+			buildPhases = (
+				3BD6305530A1DB39355FC543FB1926BB /* Sources */,
+				FDA39DF1C580A029BB7E4058BBC8B525 /* Frameworks */,
+				EDF1B03A117B08DED5457BF90A236712 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WNJChannelEditController-WNJChannelEditController";
+			productName = "WNJChannelEditController-WNJChannelEditController";
+			productReference = 82B02B14E7BFAEEAF42ACA1B3F134C47 /* WNJChannelEditController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A18D4B684F2449A49531C2211D338309 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B11B780D7CC1EF3607CF364AAFAB2D8B /* Pods-WNJChannelEditController_Example */,
+				A78FA3C9BE2E9D587C498F9B9F5B5431 /* Pods-WNJChannelEditController_Tests */,
+				A56F21C19F7B66775771DCE7859187B9 /* WNJChannelEditController */,
+				DC412B9B50BB87A5020AE4B84149DE0F /* WNJChannelEditController-WNJChannelEditController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62AE8E7631A490790EDF5AB1753ABAC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07320611B630E1414275CC95F31BEAC9 /* WNJChannelEditController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645D9CBB59E28884048CDEC75AAB6D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC95F43A58206DE3B7BEF84F88330CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF1B03A117B08DED5457BF90A236712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A3537E60273729E23B9B7B28CDF0B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0AD71E18C088913F414D2D77CD61CE9 /* Pods-WNJChannelEditController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1A44ABFC2D66D597CF141AED86BBC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26C534F6164405BE2078EE116BE0905 /* WNJChannelEditController-dummy.m in Sources */,
+				E6AF0448485BFC10A15B5B4998811031 /* WNJTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD6305530A1DB39355FC543FB1926BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5554582DB4BF35C44CCA0A5177843493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8AAEEAC49DE7C1513426D0E14A5F41 /* Pods-WNJChannelEditController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09F3B899C7BF8BEA4BFCB760D5FF476B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WNJChannelEditController;
+			target = A56F21C19F7B66775771DCE7859187B9 /* WNJChannelEditController */;
+			targetProxy = 3F34E712E7D3FBE466BDD7CD928EFCDF /* PBXContainerItemProxy */;
+		};
+		62E11D5283E04B3865075EBE6A089EAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WNJChannelEditController_Example";
+			target = B11B780D7CC1EF3607CF364AAFAB2D8B /* Pods-WNJChannelEditController_Example */;
+			targetProxy = 50599320B9BC9DFDE7BF5B61DC3A147D /* PBXContainerItemProxy */;
+		};
+		70C85DFFA247F19133A18CAE1852AB3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WNJChannelEditController-WNJChannelEditController";
+			target = DC412B9B50BB87A5020AE4B84149DE0F /* WNJChannelEditController-WNJChannelEditController */;
+			targetProxy = DEB2644BDA4C0D53B897E49F5393B916 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B89529A062CE084D54D9BC33ED6D25F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		17CCF64852C9CB3C43BA4CA5DFB45A8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB4EFB45115FD6F0FDC1216BBEC97D80 /* WNJChannelEditController.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WNJChannelEditController/WNJChannelEditController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WNJChannelEditController/WNJChannelEditController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WNJChannelEditController/WNJChannelEditController.modulemap";
+				PRODUCT_MODULE_NAME = WNJChannelEditController;
+				PRODUCT_NAME = WNJChannelEditController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50F9DBD7D8893AD52EE8B4B984F487F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89425B62E87DB90EED0D928DC758D299 /* Pods-WNJChannelEditController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WNJChannelEditController_Tests/Pods-WNJChannelEditController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WNJChannelEditController_Tests/Pods-WNJChannelEditController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		511E3C76FF97F080E44E4F0608B4E2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50B05D438EB939CB090BA6ABE1850D27 /* Pods-WNJChannelEditController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WNJChannelEditController_Example/Pods-WNJChannelEditController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WNJChannelEditController_Example/Pods-WNJChannelEditController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56E766AE460853A7B57AAB2EA8FFAB90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		654C2120778DA9D47939EA16F159BA83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88657514780DFCEAE8329B6EC4658476 /* WNJChannelEditController.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WNJChannelEditController/WNJChannelEditController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WNJChannelEditController/WNJChannelEditController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WNJChannelEditController/WNJChannelEditController.modulemap";
+				PRODUCT_MODULE_NAME = WNJChannelEditController;
+				PRODUCT_NAME = WNJChannelEditController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B85C280C0B8E51F456B495469CDDE35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD8EAD6C9FA35151FAF7533E77E86A0B /* Pods-WNJChannelEditController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WNJChannelEditController_Example/Pods-WNJChannelEditController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WNJChannelEditController_Example/Pods-WNJChannelEditController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A703184174C8FB9C5BFA98D75C3BEEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C4C4FA32B72CD4FDD0B2270616D698E /* Pods-WNJChannelEditController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WNJChannelEditController_Tests/Pods-WNJChannelEditController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WNJChannelEditController_Tests/Pods-WNJChannelEditController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B6AA36DEC42D7A91D6E8F5EB6DFB512D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB4EFB45115FD6F0FDC1216BBEC97D80 /* WNJChannelEditController.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WNJChannelEditController";
+				IBSC_MODULE = WNJChannelEditController;
+				INFOPLIST_FILE = "Target Support Files/WNJChannelEditController/ResourceBundle-WNJChannelEditController-WNJChannelEditController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WNJChannelEditController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CFACBDF5B516C1B02F81CDEC9A6F4A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88657514780DFCEAE8329B6EC4658476 /* WNJChannelEditController.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WNJChannelEditController";
+				IBSC_MODULE = WNJChannelEditController;
+				INFOPLIST_FILE = "Target Support Files/WNJChannelEditController/ResourceBundle-WNJChannelEditController-WNJChannelEditController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WNJChannelEditController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E6BB8FC0662AD76EC0C028D0AAD84F8 /* Build configuration list for PBXNativeTarget "WNJChannelEditController-WNJChannelEditController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AA36DEC42D7A91D6E8F5EB6DFB512D /* Debug */,
+				CFACBDF5B516C1B02F81CDEC9A6F4A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56E766AE460853A7B57AAB2EA8FFAB90 /* Debug */,
+				0B89529A062CE084D54D9BC33ED6D25F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7A0AD4279E9401903C0E1BDF6C4EEC7 /* Build configuration list for PBXNativeTarget "Pods-WNJChannelEditController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				511E3C76FF97F080E44E4F0608B4E2A4 /* Debug */,
+				6B85C280C0B8E51F456B495469CDDE35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C66140F14DD5E67D60028A3866A142D1 /* Build configuration list for PBXNativeTarget "Pods-WNJChannelEditController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F9DBD7D8893AD52EE8B4B984F487F5 /* Debug */,
+				7A703184174C8FB9C5BFA98D75C3BEEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD6026FE7D427B006319B5BABDA3E86D /* Build configuration list for PBXNativeTarget "WNJChannelEditController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17CCF64852C9CB3C43BA4CA5DFB45A8D /* Debug */,
+				654C2120778DA9D47939EA16F159BA83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
