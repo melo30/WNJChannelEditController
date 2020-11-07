@@ -1,6 +1,0 @@
-framework module MJBundleHelp {
-  umbrella header "MJBundleHelp-umbrella.h"
-
-  export *
-  module * { export * }
-}

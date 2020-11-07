@@ -197,12 +197,12 @@ if [ -r "${ARTIFACT_LIST_FILE}" ]; then
 fi
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/MJBundleHelp/MJBundleHelp.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/EZBundleHelp/EZBundleHelp.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/WNJChannelEditController/WNJChannelEditController.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/MJBundleHelp/MJBundleHelp.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/EZBundleHelp/EZBundleHelp.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/WNJChannelEditController/WNJChannelEditController.framework"
 fi

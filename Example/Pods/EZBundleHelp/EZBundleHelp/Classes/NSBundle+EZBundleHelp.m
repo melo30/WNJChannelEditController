@@ -1,14 +1,14 @@
 //
-//  NSBundle+MJBundleHelp.m
-//  MJBundleHelp
+//  NSBundle+EZBundleHelp.m
+//  EZBundleHelp_Example
 //
-//  Created by manjiwang on 2019/4/4.
+//  Created by 陈诚 on 2020/11/7.
+//  Copyright © 2020 melo30. All rights reserved.
 //
 
-#import "NSBundle+MJBundleHelp.h"
+#import "NSBundle+EZBundleHelp.h"
 
-@implementation NSBundle (MJBundleHelp)
-
+@implementation NSBundle (EZBundleHelp)
 
 + (NSBundle *)getCurrentBundleWithKey:(NSString *)key {
     NSString *mainBundlePath = [NSBundle mainBundle].bundlePath;
@@ -20,6 +20,5 @@
     }
     return bundle;
 }
-
 
 @end

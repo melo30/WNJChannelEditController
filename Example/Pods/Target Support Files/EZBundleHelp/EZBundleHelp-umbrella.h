@@ -10,9 +10,9 @@
 #endif
 #endif
 
-#import "NSBundle+MJBundleHelp.h"
-#import "UIImage+MJBundleHelp.h"
+#import "NSBundle+EZBundleHelp.h"
+#import "UIImage+EZBundleHelp.h"
 
-FOUNDATION_EXPORT double MJBundleHelpVersionNumber;
-FOUNDATION_EXPORT const unsigned char MJBundleHelpVersionString[];
+FOUNDATION_EXPORT double EZBundleHelpVersionNumber;
+FOUNDATION_EXPORT const unsigned char EZBundleHelpVersionString[];
 

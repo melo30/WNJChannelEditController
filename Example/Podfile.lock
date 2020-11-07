@@ -1,26 +1,26 @@
 PODS:
+  - EZBundleHelp (0.1.0)
   - Masonry (1.1.0)
-  - MJBundleHelp (0.1.1)
-  - WNJChannelEditController (0.1.2):
+  - WNJChannelEditController (0.1.3):
+    - EZBundleHelp
     - Masonry
-    - MJBundleHelp
 
 DEPENDENCIES:
   - WNJChannelEditController (from `../`)
 
 SPEC REPOS:
   https://cdn.cocoapods.org/:
+    - EZBundleHelp
     - Masonry
-    - MJBundleHelp
 
 EXTERNAL SOURCES:
   WNJChannelEditController:
     :path: "../"
 
 SPEC CHECKSUMS:
+  EZBundleHelp: b702b66f800566cba71016128652a5afc63c3e46
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MJBundleHelp: 0191c4faa2715f03d6e7ce19d203942fd74e3df6
-  WNJChannelEditController: 25984fd7e5b075717cbe955615388d853f8d8041
+  WNJChannelEditController: 53bd8f21d804beeb9e333a95710233d7f379a632
 
 PODFILE CHECKSUM: d0bcd9bd57a8d37e47a714d40eed469d317f97ee
 
