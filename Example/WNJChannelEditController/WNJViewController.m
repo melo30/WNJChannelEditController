@@ -7,6 +7,7 @@
 //
 
 #import "WNJViewController.h"
+#import "WNJChannelEditController.h"
 
 @interface WNJViewController ()
 
@@ -17,7 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    WNJChannelEditController *channelEdit = [[WNJChannelEditController alloc] initWithTopDataSource:nil andBottomDataSource:nil andInitialIndex:3];
+    [self presentViewController:channelEdit animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning

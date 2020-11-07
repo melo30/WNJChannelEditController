@@ -10,8 +10,8 @@
 #endif
 #endif
 
+#import "Target_WNJChannelEditController.h"
 #import "UIColor+WNJChannelHelper.h"
-#import "UIImage+WNJBundle.h"
 #import "WNJChannelEditController.h"
 #import "WNJChannelUnitModel.h"
 #import "WNJTouchView.h"

@@ -7,7 +7,7 @@
 //
 
 #import "WNJTouchView.h"
-#import "UIImage+WNJBundle.h"
+#import "UIImage+MJBundleHelp.h"
 #import "WNJChannelUnitModel.h"
 #import "WNJChannelEditController.h"
 #import "Masonry.h"
@@ -486,7 +486,7 @@
     if (!_clearView) {
         _clearView = [[WNJTouchView alloc] init];
         UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(5, 5, ButtonWidth - 10, ButtonHeight - 10)];
-        imageView.image = [UIImage imageMyBundleNamed:@"lanmu2"];
+        imageView.image = [UIImage bundleKey:@"WNJChannelEditController" imageName:@"lanmu2"];
         [_clearView addSubview:imageView];
         _clearView.backgroundColor = [UIColor clearColor];
         [_clearView.contentLabel removeFromSuperview];
