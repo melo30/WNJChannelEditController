@@ -65,7 +65,7 @@
                         <constraint firstAttribute="width" constant="50" id="t9l-wP-hD1"/>
                         <constraint firstAttribute="height" constant="50" id="uda-2O-HJy"/>
                     </constraints>
-                    <state key="normal" image="WNJHomePage_关闭频道"/>
+                    <state key="normal" image="WNJChannelEdit_guanbi"/>
                     <state key="highlighted" image="close-1"/>
                     <variation key="default">
                         <mask key="constraints">
@@ -99,9 +99,9 @@
         </view>
     </objects>
     <resources>
-        <image name="WNJHomePage_关闭频道" width="13" height="13"/>
+        <image name="WNJChannelEdit_guanbi" width="13" height="13"/>
         <image name="close-1" width="20" height="20"/>
-        <image name="reorder-1" width="57" height="20"/>
+        <image name="reorder-1" width="57.5" height="20"/>
         <systemColor name="darkTextColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

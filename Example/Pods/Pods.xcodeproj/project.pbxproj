@@ -7,226 +7,186 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0310EB0C64DA57D8BE44E77AAC4D43D6 /* lanmu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 984A854D84FAAA91144404338DF35D68 /* lanmu@2x.png */; };
 		05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E3EFB8EEB2CCA03B6FCB48F9D4F06C79 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B7AEA0FE6DFE8A1B8EB70F6AA274E536 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBE79553E2549A434137D8C060EC64 /* ViewController+MASAdditions.m */; };
 		098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EFB1441074F088F5ECA1EF82F68DC2 /* NSArray+MASAdditions.m */; };
 		0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B514E70501FBA3BF9C32D744F897CB /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E587A635A0AC2B969D8A24598AE34F7 /* reorder-1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6064AB1FE53DBEDD03084A5B5126FDFB /* reorder-1@3x.png */; };
-		1516B9255E2C4C26DD53FF2E50416E6F /* finsh.png in Resources */ = {isa = PBXBuildFile; fileRef = 8350494218BB3C87060980119A892EB8 /* finsh.png */; };
 		1743FDB60623932BB1BCC2C4C13A71CA /* NSBundle+EZBundleHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = EDDD0E5C55B1CFE4E27A08711E1EE597 /* NSBundle+EZBundleHelp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA64E03862C0F64F99D26FCF985C7FD /* Masonry-dummy.m */; };
-		1ABBC784DC3C571D3241DC7B11E3E832 /* WNJChannelUnitModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 537F6DDBA1FE70D6CE3B71DCC1BAE7E7 /* WNJChannelUnitModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B501E166E89C6F4187F8566363767CE /* Target_WNJChannelEditController.h in Headers */ = {isa = PBXBuildFile; fileRef = DDD2BF722CDADAE4EBE5D13281D48FF2 /* Target_WNJChannelEditController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E7214026096F6367C5B4107174079B9 /* WNJTouchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 74CDCF5529FA12176CC48E0FC317159C /* WNJTouchView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1ABBC784DC3C571D3241DC7B11E3E832 /* WNJChannelUnitModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4647A1BB00321906CB837EEF29693728 /* WNJChannelUnitModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B501E166E89C6F4187F8566363767CE /* Target_WNJChannelEditController.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B7022946D856BB84531FB7E7158167 /* Target_WNJChannelEditController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E7214026096F6367C5B4107174079B9 /* WNJTouchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D014711E506A8ADF3D14920AAD93175 /* WNJTouchView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		268E7ADA749889D29053FCE2D920ACC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E791EFB31A1FEA0D4CCFC4E9419A1B8 /* Foundation.framework */; };
 		280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A6D0F34BEB65AA80E0984D3ED39FF73 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = C986C36867663846CE50CC08CF921615 /* MASViewAttribute.m */; };
-		298438CDBE173DC2B9C3B562B9D565AB /* close-1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EAD2556985451DC1242482F51503EE0 /* close-1@3x.png */; };
-		2D180D684723F81A153C32A87B8B6785 /* WNJTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB7EF5DFC21EB87FD036FA41B26DF76 /* WNJTouchView.m */; };
-		2FFA92A9D191D2FF68CBDFB9333ADD6E /* WNJChannelEditController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC4A730677CBC99A92AD24E026712C5 /* WNJChannelEditController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		31430E554F93ACF64C816989358526F3 /* finsh-1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 838CEF59ED561841A39F2099253E6FC1 /* finsh-1@3x.png */; };
+		2D180D684723F81A153C32A87B8B6785 /* WNJTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B19FC0FE7BB3D0B844FDC83BD0684D8 /* WNJTouchView.m */; };
+		2FFA92A9D191D2FF68CBDFB9333ADD6E /* WNJChannelEditController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E974AFEDA8E021740444DE53092532A /* WNJChannelEditController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		324448D6007148EE75502C56981585BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E791EFB31A1FEA0D4CCFC4E9419A1B8 /* Foundation.framework */; };
 		346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 4452B0F9D2106294025308CD28B7B71C /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36205F1EB5FC25D300A95BA0195DB968 /* WNJChannelEditController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 82B02B14E7BFAEEAF42ACA1B3F134C47 /* WNJChannelEditController.bundle */; };
 		3727714112B0B93BAF8B82E180A331E8 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8616EA958471A6E32082F0BDF2BC022 /* Masonry.framework */; };
-		3A96B388CA495575A1504EBA993D79A0 /* close-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DC48FB099D2B7A9DA8D594120BD831 /* close-1@2x.png */; };
 		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 058409168A0C80C7989A4E9742B47B4A /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45189C8A238B314F597EA1C7776AC775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E791EFB31A1FEA0D4CCFC4E9419A1B8 /* Foundation.framework */; };
-		473D2087BF11AB9D8F71A4BC017E5103 /* reorder@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F1991FDC299620C194F9974CDB1B90 /* reorder@3x.png */; };
 		476AD3D8E500FDA346DD206D3F859D77 /* EZBundleHelp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9A54150B265824D8B3C99004040D4C /* EZBundleHelp.framework */; };
 		498B07E0C82B6701D9E793C1BBAF126E /* EZBundleHelp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA174752A3D17DF8864162D9E97BDAD /* EZBundleHelp-dummy.m */; };
 		4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CC3FB86E4F79EEAE0F5BA4008C9B2EE /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B9943AA853AB50ADA060B8F36A118F3 /* NSBundle+EZBundleHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A9C6E3A12679AC850154925F77D71E /* NSBundle+EZBundleHelp.m */; };
-		4E6EB4E7A67142BE799EE193E1EDD891 /* reorder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A9AE6E8DE1FDAD9E078DBB21D95A6E /* reorder@2x.png */; };
+		587A2F9B3A87E4770FCA02A63D62BBC4 /* Resource.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D9BB3FF402B8A865CB336FD3D396F9A /* Resource.xcassets */; };
 		58AF805046CFD9986EFEAACCBA61F9BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E791EFB31A1FEA0D4CCFC4E9419A1B8 /* Foundation.framework */; };
-		5B3ED780BD5CE98694DD8D86244C0557 /* del@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 319C4268B37342B3E15F300C0AA4659F /* del@2x.png */; };
-		5C43DF8313F3C8C7259149C411C65781 /* lanmu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF988BD385EE8B8200B2DB9FE48199A0 /* lanmu@3x.png */; };
 		5D5AB502D85BF8E27246A5964F6B3E9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D630B9E3FCDBD99BD4BC88DB88F0DCB1 /* UIKit.framework */; };
-		63AFC80FBECC3F3F7DD0050FD2FACD99 /* Target_WNJChannelEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F2D459EE72A5AFA5089D8836519BF4 /* Target_WNJChannelEditController.m */; };
-		653511EB49693FB25667230C30DD8F87 /* lanmu2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1014A6836217A070162DCEF5E86ED5 /* lanmu2.png */; };
-		6A637E760AA63301C5E1ACBD6FEA3A5E /* WNJChannelEditController.h in Headers */ = {isa = PBXBuildFile; fileRef = 20C9CD5C763CEB474667EE5A0A976713 /* WNJChannelEditController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63AFC80FBECC3F3F7DD0050FD2FACD99 /* Target_WNJChannelEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6B60545C013863E8236CD561CCF2B4 /* Target_WNJChannelEditController.m */; };
+		6A637E760AA63301C5E1ACBD6FEA3A5E /* WNJChannelEditController.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D44DCB025972AF6B6D8791BB93AFAB /* WNJChannelEditController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D7DE6DC4BEFFAEC4D9258E547DF2852 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FC8566984BED2BC4D2828F0C7764B04 /* finsh-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 357F4A964423E232EE187B6272BCB35A /* finsh-1@2x.png */; };
-		6FDC91B2DB5CA74FA91202AFC6681C26 /* close-1.png in Resources */ = {isa = PBXBuildFile; fileRef = C56BD578B17B03F232399C41CA634479 /* close-1.png */; };
 		78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 997D3793A84772BBBABB7EDA1982F941 /* MASConstraintMaker.m */; };
-		79E2F515C3ECC740130D5CE6E2FA4954 /* reorder-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 64501A1F3EE2D38ADA92002C3888A438 /* reorder-1.png */; };
 		7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C5AFD4F5E80463CD36A4EC2B0C2302 /* MASCompositeConstraint.m */; };
-		828AAABD7254B1BADDF9B240CEC6423A /* reorder.png in Resources */ = {isa = PBXBuildFile; fileRef = 824F6F95C7E9FF2CF8919BE2A0348B98 /* reorder.png */; };
 		8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BC32CDCAA5AE8772DDFA9727712666 /* MASLayoutConstraint.m */; };
 		8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B18E435B21E39A83687981F782E5A5B4 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = BB867EE388DFE54A1A211CA84E086393 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 73F049358224E4143F86071E404C753D /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F253C8E809182CB2E3BE598AA95088A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E791EFB31A1FEA0D4CCFC4E9419A1B8 /* Foundation.framework */; };
 		941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = E7BB6DC49884D129439BB78B53F1A104 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99D7A966B562C9D0EDB8BC50CB0081B2 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EA66AFAB8B731BC361100B20142C212 /* close@2x.png */; };
 		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A50D65333A60766FEDEAC1500602090 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1327F1D3BDD1B688047CB8CDE6F00072 /* View+MASAdditions.m */; };
-		A720A40C6DAD8F17163512AE87A86737 /* UIColor+WNJChannelHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A794C7BF22F2CBBFEA4D3980163A30B /* UIColor+WNJChannelHelper.m */; };
-		A8D2A007FE37411173B0E7267DD37453 /* WNJChannelEditController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 304949B0B6DAAF7A3E1F552048DF76EF /* WNJChannelEditController-dummy.m */; };
-		AE44796367DDD75EF2D12E151DE2CF25 /* UIColor+WNJChannelHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = BD8AE2128114FFF26E574742BC5AF5A6 /* UIColor+WNJChannelHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A720A40C6DAD8F17163512AE87A86737 /* UIColor+WNJChannelHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 182C9AE5E9B773815A03BC587B91D5C4 /* UIColor+WNJChannelHelper.m */; };
+		A8D2A007FE37411173B0E7267DD37453 /* WNJChannelEditController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F78FC25DA7098455C85604D8086BBF6 /* WNJChannelEditController-dummy.m */; };
+		AB2B4FC2AE06CC79B3B66C0634F757E3 /* WNJChannelEditController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6D2F3E5F50506B8005745C030C5D3E0 /* WNJChannelEditController.xib */; };
+		AE44796367DDD75EF2D12E151DE2CF25 /* UIColor+WNJChannelHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E6C354934D8AB9048E9F7D3DF3862FAD /* UIColor+WNJChannelHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AFF5489C7F633778C19AF85E1DCC52BF /* EZBundleHelp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EACFB57592EA373E58E26CD3842A96 /* EZBundleHelp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B39507D68F21651450E17230B697593A /* UIImage+EZBundleHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AFB3B343A96AF0F42B341356690261 /* UIImage+EZBundleHelp.m */; };
 		B42DFA2BAC71000E2EAF161417E808B2 /* Pods-WNJChannelEditController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77C31325BEA627657F054E95FEC241E4 /* Pods-WNJChannelEditController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6357137FFFBB134D30B47CEC0F6208D /* lanmu2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8ED4105E050FB44A758394B042BEE4 /* lanmu2@2x.png */; };
 		B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 208523E8D5B66BEA72C17D17535F8663 /* MASViewConstraint.m */; };
-		BCB14845B8D66430ECB8DBB3FED1B828 /* lanmu.png in Resources */ = {isa = PBXBuildFile; fileRef = FA2A43976411B40767FB288F20A897B8 /* lanmu.png */; };
 		C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3276CD4852895E9DC3EF41231B2B45 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		C444F971BE15A3A0EBA8DF4596B0564F /* del.png in Resources */ = {isa = PBXBuildFile; fileRef = 4821E491CDA5B875B701252BA33AFEBF /* del.png */; };
-		C833D7EC06E57E168EBF3D6B5A775C1B /* finsh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75877D54EE31464C4541D3B52F6A0FE5 /* finsh@2x.png */; };
-		CD83AF24052B20BFC52169115CA79A68 /* WNJChannelEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F74D44E133AD900C3C8063D2FEB79 /* WNJChannelEditController.m */; };
-		CD9BD12BF200A7FF1EF2B99E963B28BF /* finsh-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F689663FCD28B5C6B6DD34DD7CB997E /* finsh-1.png */; };
-		D1B8CAE7729857D876C7974FA502765B /* reorder-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A94D58C9975F42D76F31F85779DDE968 /* reorder-1@2x.png */; };
+		CD83AF24052B20BFC52169115CA79A68 /* WNJChannelEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8140126AB24D1EAE73AC89E7B6A079 /* WNJChannelEditController.m */; };
 		D248F30B152C1FC228676CBD5346F9BE /* Pods-WNJChannelEditController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD109DFC6EA4E446304060160A3FD6F /* Pods-WNJChannelEditController_Example-dummy.m */; };
 		DB8AAEEAC49DE7C1513426D0E14A5F41 /* Pods-WNJChannelEditController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A6D3858708294644145733989AED18 /* Pods-WNJChannelEditController_Tests-dummy.m */; };
-		DD6D49ADC3B83C41B7AF9D39F13016C8 /* WNJChannelUnitModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A112C6AD1A78C24044CE5E4DA84CF6FF /* WNJChannelUnitModel.m */; };
-		DF90893713FE4D8049FC8CFC0E1946ED /* WNJChannelEditController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C17F5AC210C37FAE6D51766FF54F2482 /* WNJChannelEditController.xib */; };
-		E55ED81DF7FEDB4DBD11DE9F0D7AF537 /* del@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 573139658A526767A6BDD03C5FF19188 /* del@3x.png */; };
+		DD6D49ADC3B83C41B7AF9D39F13016C8 /* WNJChannelUnitModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 059E0FCDDAC29660EF1A8264C5617F55 /* WNJChannelUnitModel.m */; };
 		E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F3C437AD23DBE1389774214E1734D4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 595054253ADA867323F23BEBF3451A4A /* MASConstraint.m */; };
 		EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B4AEE5589FF29AB7BBEAB1EB53076D3 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBC8D37FCCCC44D144139369192A1F9F /* UIImage+EZBundleHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = F709691452A86C7121B78D5E3E3D09D2 /* UIImage+EZBundleHelp.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0FD2A8BFAD4AA12BF7A247D5AAB493C /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = FD634186ED46F9A845FB8DFA84DB69EB /* close.png */; };
 		FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8CF08E34292979CE1692CFEAD280AD /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC70B5FF4ACAD81F38AB0DD3F4CB1673 /* lanmu2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 211C966AC8ADCD06E3E609F6B0F1DD3C /* lanmu2@3x.png */; };
-		FCA34F0B76EA796820F6181A182B2D16 /* close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8A62687004F35763BB6144A4FE0AD43 /* close@3x.png */; };
 		FDD9F282C6E299249D616FD24672FB2D /* Pods-WNJChannelEditController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54A55FF0F129A50056D51C53FB58E5C6 /* Pods-WNJChannelEditController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FFB3D673AE868DC2EA1AFA86F02032FD /* finsh@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67D8D377054685327DE729EEE59FBF24 /* finsh@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		14DBD3B0037375848BC270373CA66351 /* PBXContainerItemProxy */ = {
+		00118D2F36840F959B8222D389991265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8B2B1784AEBCA49250CFF4F7F61DE55;
+			remoteInfo = EZBundleHelp;
+		};
+		003CD06516E3837991E46A27979B9426 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
 			remoteInfo = Masonry;
 		};
-		15AEC943CF515AD0C93EA8596B4C0B65 /* PBXContainerItemProxy */ = {
+		1853682713E2DBBBE7A57EFA209EBAED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8B2B1784AEBCA49250CFF4F7F61DE55;
+			remoteInfo = EZBundleHelp;
+		};
+		43285AEB7A1560139EC624CE4DC77BA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		546EA120B208958F5A57ECB836D5F272 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A56F21C19F7B66775771DCE7859187B9;
 			remoteInfo = WNJChannelEditController;
 		};
-		1C5BDAFF3E4B8FD9825B17A76819176D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B11B780D7CC1EF3607CF364AAFAB2D8B;
-			remoteInfo = "Pods-WNJChannelEditController_Example";
-		};
-		2D9566F98D2EB22224D8759107FA81BC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B8B2B1784AEBCA49250CFF4F7F61DE55;
-			remoteInfo = EZBundleHelp;
-		};
-		4094FC5FCFB4495122A59078CE360E42 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B8B2B1784AEBCA49250CFF4F7F61DE55;
-			remoteInfo = EZBundleHelp;
-		};
-		DC6494563B369C11AC61268F4825E6DC /* PBXContainerItemProxy */ = {
+		773EDE132018CAB0049D2B2C6B71AE12 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DC412B9B50BB87A5020AE4B84149DE0F;
 			remoteInfo = "WNJChannelEditController-WNJChannelEditController";
 		};
-		F6F6AD6A3088154263533C3D5290F58C /* PBXContainerItemProxy */ = {
+		E652EB50F83AE99A5A4BAE3A9357A0DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
-			remoteInfo = Masonry;
+			remoteGlobalIDString = B11B780D7CC1EF3607CF364AAFAB2D8B;
+			remoteInfo = "Pods-WNJChannelEditController_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		058409168A0C80C7989A4E9742B47B4A /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		059E0FCDDAC29660EF1A8264C5617F55 /* WNJChannelUnitModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WNJChannelUnitModel.m; path = WNJChannelEditController/Classes/WNJChannelUnitModel.m; sourceTree = "<group>"; };
 		075D3212410F64388E6AD06337CE214E /* Pods-WNJChannelEditController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WNJChannelEditController_Tests-Info.plist"; sourceTree = "<group>"; };
+		0A8140126AB24D1EAE73AC89E7B6A079 /* WNJChannelEditController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WNJChannelEditController.m; path = WNJChannelEditController/Classes/WNJChannelEditController.m; sourceTree = "<group>"; };
 		0A974E58A78C7254CEE24E3F353274A1 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
 		0D7DE6DC4BEFFAEC4D9258E547DF2852 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
 		0E791EFB31A1FEA0D4CCFC4E9419A1B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		12DFDAB99B87D1D75F40C3B69126A1AC /* Pods-WNJChannelEditController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WNJChannelEditController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1327F1D3BDD1B688047CB8CDE6F00072 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		182C9AE5E9B773815A03BC587B91D5C4 /* UIColor+WNJChannelHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+WNJChannelHelper.m"; path = "WNJChannelEditController/Classes/UIColor+WNJChannelHelper.m"; sourceTree = "<group>"; };
 		1A6D0F34BEB65AA80E0984D3ED39FF73 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		1C4C4FA32B72CD4FDD0B2270616D698E /* Pods-WNJChannelEditController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WNJChannelEditController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1FCE4343300124DA08B5E562605B12A9 /* WNJChannelEditController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WNJChannelEditController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		208523E8D5B66BEA72C17D17535F8663 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		20C9CD5C763CEB474667EE5A0A976713 /* WNJChannelEditController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WNJChannelEditController.h; path = WNJChannelEditController/Classes/WNJChannelEditController.h; sourceTree = "<group>"; };
-		211C966AC8ADCD06E3E609F6B0F1DD3C /* lanmu2@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "lanmu2@3x.png"; path = "WNJChannelEditController/Assets/lanmu2@3x.png"; sourceTree = "<group>"; };
-		233927F4EF30EC7A6A3D9A29B4C0480D /* ResourceBundle-WNJChannelEditController-WNJChannelEditController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WNJChannelEditController-WNJChannelEditController-Info.plist"; sourceTree = "<group>"; };
 		28B514E70501FBA3BF9C32D744F897CB /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		2916A28E28904D1FF8DD357F6D319138 /* EZBundleHelp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EZBundleHelp.debug.xcconfig; sourceTree = "<group>"; };
 		29A6D3858708294644145733989AED18 /* Pods-WNJChannelEditController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WNJChannelEditController_Tests-dummy.m"; sourceTree = "<group>"; };
 		29BC32CDCAA5AE8772DDFA9727712666 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		2A50D65333A60766FEDEAC1500602090 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		2B4AEE5589FF29AB7BBEAB1EB53076D3 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		2B6F74D44E133AD900C3C8063D2FEB79 /* WNJChannelEditController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WNJChannelEditController.m; path = WNJChannelEditController/Classes/WNJChannelEditController.m; sourceTree = "<group>"; };
-		2D1964BA7076E340FDB6BFE8A45D78A5 /* WNJChannelEditController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WNJChannelEditController.debug.xcconfig; sourceTree = "<group>"; };
+		2D014711E506A8ADF3D14920AAD93175 /* WNJTouchView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WNJTouchView.h; path = WNJChannelEditController/Classes/WNJTouchView.h; sourceTree = "<group>"; };
 		2DFA3B7FD53B2ACF30E98EB157091910 /* Pods_WNJChannelEditController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WNJChannelEditController_Example.framework; path = "Pods-WNJChannelEditController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E8CF08E34292979CE1692CFEAD280AD /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		304949B0B6DAAF7A3E1F552048DF76EF /* WNJChannelEditController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WNJChannelEditController-dummy.m"; sourceTree = "<group>"; };
 		30EACFB57592EA373E58E26CD3842A96 /* EZBundleHelp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EZBundleHelp-umbrella.h"; sourceTree = "<group>"; };
-		319C4268B37342B3E15F300C0AA4659F /* del@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "del@2x.png"; path = "WNJChannelEditController/Assets/del@2x.png"; sourceTree = "<group>"; };
-		357F4A964423E232EE187B6272BCB35A /* finsh-1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "finsh-1@2x.png"; path = "WNJChannelEditController/Assets/finsh-1@2x.png"; sourceTree = "<group>"; };
 		36D80004CDC8BF933ECFA8C4FF87C467 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		3E6B60545C013863E8236CD561CCF2B4 /* Target_WNJChannelEditController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_WNJChannelEditController.m; path = WNJChannelEditController/Classes/Target_WNJChannelEditController.m; sourceTree = "<group>"; };
 		3E9A54150B265824D8B3C99004040D4C /* EZBundleHelp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EZBundleHelp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E4290D4BE1176F126D9914C6968DD9 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
 		43F3C437AD23DBE1389774214E1734D4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		4452B0F9D2106294025308CD28B7B71C /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		4566CAAE376815B84F21AC3C17ACC67A /* EZBundleHelp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EZBundleHelp.framework; path = EZBundleHelp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		47DC48FB099D2B7A9DA8D594120BD831 /* close-1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close-1@2x.png"; path = "WNJChannelEditController/Assets/close-1@2x.png"; sourceTree = "<group>"; };
-		4821E491CDA5B875B701252BA33AFEBF /* del.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = del.png; path = WNJChannelEditController/Assets/del.png; sourceTree = "<group>"; };
-		4B804F458381AC4D998DFEC58B79DB5D /* WNJChannelEditController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WNJChannelEditController.modulemap; sourceTree = "<group>"; };
+		4647A1BB00321906CB837EEF29693728 /* WNJChannelUnitModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WNJChannelUnitModel.h; path = WNJChannelEditController/Classes/WNJChannelUnitModel.h; sourceTree = "<group>"; };
+		4B19FC0FE7BB3D0B844FDC83BD0684D8 /* WNJTouchView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WNJTouchView.m; path = WNJChannelEditController/Classes/WNJTouchView.m; sourceTree = "<group>"; };
+		4D2DA5079CD5DB36BACD3BB34D750EA8 /* WNJChannelEditController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WNJChannelEditController-Info.plist"; sourceTree = "<group>"; };
 		4E3276CD4852895E9DC3EF41231B2B45 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		50B05D438EB939CB090BA6ABE1850D27 /* Pods-WNJChannelEditController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WNJChannelEditController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		537F6DDBA1FE70D6CE3B71DCC1BAE7E7 /* WNJChannelUnitModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WNJChannelUnitModel.h; path = WNJChannelEditController/Classes/WNJChannelUnitModel.h; sourceTree = "<group>"; };
 		54A55FF0F129A50056D51C53FB58E5C6 /* Pods-WNJChannelEditController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WNJChannelEditController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		56AFB3B343A96AF0F42B341356690261 /* UIImage+EZBundleHelp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+EZBundleHelp.m"; path = "EZBundleHelp/Classes/UIImage+EZBundleHelp.m"; sourceTree = "<group>"; };
-		573139658A526767A6BDD03C5FF19188 /* del@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "del@3x.png"; path = "WNJChannelEditController/Assets/del@3x.png"; sourceTree = "<group>"; };
 		59286E127246701328414C003576BD25 /* WNJChannelEditController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WNJChannelEditController.framework; path = WNJChannelEditController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		595054253ADA867323F23BEBF3451A4A /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		5EA66AFAB8B731BC361100B20142C212 /* close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close@2x.png"; path = "WNJChannelEditController/Assets/close@2x.png"; sourceTree = "<group>"; };
-		6064AB1FE53DBEDD03084A5B5126FDFB /* reorder-1@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "reorder-1@3x.png"; path = "WNJChannelEditController/Assets/reorder-1@3x.png"; sourceTree = "<group>"; };
+		5B7EF551588EAEE43CA19A47F1F1E89C /* ResourceBundle-WNJChannelEditController-WNJChannelEditController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WNJChannelEditController-WNJChannelEditController-Info.plist"; sourceTree = "<group>"; };
+		5F78FC25DA7098455C85604D8086BBF6 /* WNJChannelEditController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WNJChannelEditController-dummy.m"; sourceTree = "<group>"; };
 		61A9C6E3A12679AC850154925F77D71E /* NSBundle+EZBundleHelp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+EZBundleHelp.m"; path = "EZBundleHelp/Classes/NSBundle+EZBundleHelp.m"; sourceTree = "<group>"; };
-		64501A1F3EE2D38ADA92002C3888A438 /* reorder-1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "reorder-1.png"; path = "WNJChannelEditController/Assets/reorder-1.png"; sourceTree = "<group>"; };
-		67D8D377054685327DE729EEE59FBF24 /* finsh@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "finsh@3x.png"; path = "WNJChannelEditController/Assets/finsh@3x.png"; sourceTree = "<group>"; };
-		6F689663FCD28B5C6B6DD34DD7CB997E /* finsh-1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "finsh-1.png"; path = "WNJChannelEditController/Assets/finsh-1.png"; sourceTree = "<group>"; };
+		68B7022946D856BB84531FB7E7158167 /* Target_WNJChannelEditController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_WNJChannelEditController.h; path = WNJChannelEditController/Classes/Target_WNJChannelEditController.h; sourceTree = "<group>"; };
+		6E974AFEDA8E021740444DE53092532A /* WNJChannelEditController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WNJChannelEditController-umbrella.h"; sourceTree = "<group>"; };
+		7148DD959B4DB99335337380E18DB971 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		72AF453F1A958167F9CEB7FD112470ED /* WNJChannelEditController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WNJChannelEditController.debug.xcconfig; sourceTree = "<group>"; };
 		73F049358224E4143F86071E404C753D /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		74CDCF5529FA12176CC48E0FC317159C /* WNJTouchView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WNJTouchView.h; path = WNJChannelEditController/Classes/WNJTouchView.h; sourceTree = "<group>"; };
-		75877D54EE31464C4541D3B52F6A0FE5 /* finsh@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "finsh@2x.png"; path = "WNJChannelEditController/Assets/finsh@2x.png"; sourceTree = "<group>"; };
 		77C31325BEA627657F054E95FEC241E4 /* Pods-WNJChannelEditController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WNJChannelEditController_Example-umbrella.h"; sourceTree = "<group>"; };
 		780588A070AA3431D3047B75A1EDB8F3 /* EZBundleHelp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EZBundleHelp-Info.plist"; sourceTree = "<group>"; };
 		78EFB1441074F088F5ECA1EF82F68DC2 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		7CA174752A3D17DF8864162D9E97BDAD /* EZBundleHelp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EZBundleHelp-dummy.m"; sourceTree = "<group>"; };
 		80DBE79553E2549A434137D8C060EC64 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		824F6F95C7E9FF2CF8919BE2A0348B98 /* reorder.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = reorder.png; path = WNJChannelEditController/Assets/reorder.png; sourceTree = "<group>"; };
 		82B02B14E7BFAEEAF42ACA1B3F134C47 /* WNJChannelEditController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WNJChannelEditController.bundle; path = "WNJChannelEditController-WNJChannelEditController.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8350494218BB3C87060980119A892EB8 /* finsh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = finsh.png; path = WNJChannelEditController/Assets/finsh.png; sourceTree = "<group>"; };
-		838CEF59ED561841A39F2099253E6FC1 /* finsh-1@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "finsh-1@3x.png"; path = "WNJChannelEditController/Assets/finsh-1@3x.png"; sourceTree = "<group>"; };
 		85737B3C64FE3EC7F9A8C575F8F7F0A6 /* EZBundleHelp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EZBundleHelp.modulemap; sourceTree = "<group>"; };
 		8665561A58DEA558366DCC8333DB3874 /* Pods-WNJChannelEditController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WNJChannelEditController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		89425B62E87DB90EED0D928DC758D299 /* Pods-WNJChannelEditController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WNJChannelEditController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8C155083548849BDDC8B2B878E7A0B4B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		8CC3FB86E4F79EEAE0F5BA4008C9B2EE /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		8EAD2556985451DC1242482F51503EE0 /* close-1@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close-1@3x.png"; path = "WNJChannelEditController/Assets/close-1@3x.png"; sourceTree = "<group>"; };
-		984A854D84FAAA91144404338DF35D68 /* lanmu@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "lanmu@2x.png"; path = "WNJChannelEditController/Assets/lanmu@2x.png"; sourceTree = "<group>"; };
+		93D44DCB025972AF6B6D8791BB93AFAB /* WNJChannelEditController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WNJChannelEditController.h; path = WNJChannelEditController/Classes/WNJChannelEditController.h; sourceTree = "<group>"; };
 		997D3793A84772BBBABB7EDA1982F941 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
-		9A794C7BF22F2CBBFEA4D3980163A30B /* UIColor+WNJChannelHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+WNJChannelHelper.m"; path = "WNJChannelEditController/Classes/UIColor+WNJChannelHelper.m"; sourceTree = "<group>"; };
-		9D8ED4105E050FB44A758394B042BEE4 /* lanmu2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "lanmu2@2x.png"; path = "WNJChannelEditController/Assets/lanmu2@2x.png"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D9BB3FF402B8A865CB336FD3D396F9A /* Resource.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Resource.xcassets; path = WNJChannelEditController/Assets/Resource.xcassets; sourceTree = "<group>"; };
 		9FBB70A20F8800186A5ADF0151FF4EB7 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
-		A112C6AD1A78C24044CE5E4DA84CF6FF /* WNJChannelUnitModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WNJChannelUnitModel.m; path = WNJChannelEditController/Classes/WNJChannelUnitModel.m; sourceTree = "<group>"; };
 		A38E92E7FF83AAA3D29455781C33AEBF /* Pods-WNJChannelEditController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WNJChannelEditController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A7A9AE6E8DE1FDAD9E078DBB21D95A6E /* reorder@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "reorder@2x.png"; path = "WNJChannelEditController/Assets/reorder@2x.png"; sourceTree = "<group>"; };
-		A94D58C9975F42D76F31F85779DDE968 /* reorder-1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "reorder-1@2x.png"; path = "WNJChannelEditController/Assets/reorder-1@2x.png"; sourceTree = "<group>"; };
 		AA74DEE5A0148DC3ED6A3819C2362516 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		B1192F7660DA3E9906882D607434F594 /* EZBundleHelp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EZBundleHelp-prefix.pch"; sourceTree = "<group>"; };
 		B18E435B21E39A83687981F782E5A5B4 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
@@ -235,43 +195,31 @@
 		B8616EA958471A6E32082F0BDF2BC022 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C5AFD4F5E80463CD36A4EC2B0C2302 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		BB867EE388DFE54A1A211CA84E086393 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		BCB7EF5DFC21EB87FD036FA41B26DF76 /* WNJTouchView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WNJTouchView.m; path = WNJChannelEditController/Classes/WNJTouchView.m; sourceTree = "<group>"; };
-		BD8AE2128114FFF26E574742BC5AF5A6 /* UIColor+WNJChannelHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+WNJChannelHelper.h"; path = "WNJChannelEditController/Classes/UIColor+WNJChannelHelper.h"; sourceTree = "<group>"; };
-		BF1014A6836217A070162DCEF5E86ED5 /* lanmu2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = lanmu2.png; path = WNJChannelEditController/Assets/lanmu2.png; sourceTree = "<group>"; };
+		C01EAB64E5F49EBD2CC29F78948CD7A1 /* WNJChannelEditController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WNJChannelEditController.modulemap; sourceTree = "<group>"; };
 		C16B8A06DA33656A6598622A2740CB26 /* Pods-WNJChannelEditController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WNJChannelEditController_Example-Info.plist"; sourceTree = "<group>"; };
-		C17F5AC210C37FAE6D51766FF54F2482 /* WNJChannelEditController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = WNJChannelEditController.xib; path = WNJChannelEditController/Assets/WNJChannelEditController.xib; sourceTree = "<group>"; };
-		C2C5352E7E0794D8660ED1AB807ECDE4 /* WNJChannelEditController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WNJChannelEditController-prefix.pch"; sourceTree = "<group>"; };
-		C56BD578B17B03F232399C41CA634479 /* close-1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close-1.png"; path = "WNJChannelEditController/Assets/close-1.png"; sourceTree = "<group>"; };
 		C986C36867663846CE50CC08CF921615 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		D1017939F13159B94B67313003CC3B7A /* WNJChannelEditController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WNJChannelEditController.release.xcconfig; sourceTree = "<group>"; };
 		D630B9E3FCDBD99BD4BC88DB88F0DCB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D6F2D459EE72A5AFA5089D8836519BF4 /* Target_WNJChannelEditController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_WNJChannelEditController.m; path = WNJChannelEditController/Classes/Target_WNJChannelEditController.m; sourceTree = "<group>"; };
+		D6D2F3E5F50506B8005745C030C5D3E0 /* WNJChannelEditController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = WNJChannelEditController.xib; path = WNJChannelEditController/Assets/WNJChannelEditController.xib; sourceTree = "<group>"; };
 		DAD109DFC6EA4E446304060160A3FD6F /* Pods-WNJChannelEditController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WNJChannelEditController_Example-dummy.m"; sourceTree = "<group>"; };
 		DD8EAD6C9FA35151FAF7533E77E86A0B /* Pods-WNJChannelEditController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WNJChannelEditController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DDD2BF722CDADAE4EBE5D13281D48FF2 /* Target_WNJChannelEditController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_WNJChannelEditController.h; path = WNJChannelEditController/Classes/Target_WNJChannelEditController.h; sourceTree = "<group>"; };
-		E37FDA3510C786702B12589CD7DD8B6D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DDD7A75C882D5E8E9E5783DCCCC61D34 /* WNJChannelEditController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WNJChannelEditController-prefix.pch"; sourceTree = "<group>"; };
 		E3EFB8EEB2CCA03B6FCB48F9D4F06C79 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		E4BF55AC6402F59170E5BB3590B73F5B /* WNJChannelEditController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WNJChannelEditController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E6C354934D8AB9048E9F7D3DF3862FAD /* UIColor+WNJChannelHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+WNJChannelHelper.h"; path = "WNJChannelEditController/Classes/UIColor+WNJChannelHelper.h"; sourceTree = "<group>"; };
 		E7BB6DC49884D129439BB78B53F1A104 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		E8FC4E52B62BC25D220A2A745C332304 /* WNJChannelEditController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WNJChannelEditController.release.xcconfig; sourceTree = "<group>"; };
 		EA73CD46C80CDE97F6102F02F32649CF /* Pods-WNJChannelEditController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WNJChannelEditController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		EDA64E03862C0F64F99D26FCF985C7FD /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		EDDD0E5C55B1CFE4E27A08711E1EE597 /* NSBundle+EZBundleHelp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+EZBundleHelp.h"; path = "EZBundleHelp/Classes/NSBundle+EZBundleHelp.h"; sourceTree = "<group>"; };
-		EEC4A730677CBC99A92AD24E026712C5 /* WNJChannelEditController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WNJChannelEditController-umbrella.h"; sourceTree = "<group>"; };
+		EE06B3C22F4313041273B18B6349B603 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		EFC676CBB7B107B20DEF8456D30194CA /* EZBundleHelp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EZBundleHelp.release.xcconfig; sourceTree = "<group>"; };
 		F1B05B2F05D8C774E34EDC1E316C1ECD /* Pods_WNJChannelEditController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WNJChannelEditController_Tests.framework; path = "Pods-WNJChannelEditController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C01C1512D78D4ECD450EAFAFC903BD /* Pods-WNJChannelEditController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WNJChannelEditController_Example.modulemap"; sourceTree = "<group>"; };
-		F3148C5A90267D23D658D5235D580137 /* WNJChannelEditController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WNJChannelEditController-Info.plist"; sourceTree = "<group>"; };
-		F4F1991FDC299620C194F9974CDB1B90 /* reorder@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "reorder@3x.png"; path = "WNJChannelEditController/Assets/reorder@3x.png"; sourceTree = "<group>"; };
 		F5EEFC554D994DA7409677283DED698E /* Pods-WNJChannelEditController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WNJChannelEditController_Tests.modulemap"; sourceTree = "<group>"; };
 		F709691452A86C7121B78D5E3E3D09D2 /* UIImage+EZBundleHelp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+EZBundleHelp.h"; path = "EZBundleHelp/Classes/UIImage+EZBundleHelp.h"; sourceTree = "<group>"; };
-		F8A62687004F35763BB6144A4FE0AD43 /* close@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close@3x.png"; path = "WNJChannelEditController/Assets/close@3x.png"; sourceTree = "<group>"; };
-		FA2A43976411B40767FB288F20A897B8 /* lanmu.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = lanmu.png; path = WNJChannelEditController/Assets/lanmu.png; sourceTree = "<group>"; };
-		FD634186ED46F9A845FB8DFA84DB69EB /* close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = close.png; path = WNJChannelEditController/Assets/close.png; sourceTree = "<group>"; };
-		FF988BD385EE8B8200B2DB9FE48199A0 /* lanmu@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "lanmu@3x.png"; path = "WNJChannelEditController/Assets/lanmu@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		05B6D23AADE24C3A4D60E317264E2E24 /* Frameworks */ = {
+		2BF6BA41E86A175D5A2111032E01F2FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -324,14 +272,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2367A12A3A201C29903A414C769FF649 /* Pod */ = {
+		04C816E4C6388B4705D4F4C6A2278C84 /* WNJChannelEditController */ = {
 			isa = PBXGroup;
 			children = (
-				E37FDA3510C786702B12589CD7DD8B6D /* LICENSE */,
-				8C155083548849BDDC8B2B878E7A0B4B /* README.md */,
-				E4BF55AC6402F59170E5BB3590B73F5B /* WNJChannelEditController.podspec */,
+				68B7022946D856BB84531FB7E7158167 /* Target_WNJChannelEditController.h */,
+				3E6B60545C013863E8236CD561CCF2B4 /* Target_WNJChannelEditController.m */,
+				E6C354934D8AB9048E9F7D3DF3862FAD /* UIColor+WNJChannelHelper.h */,
+				182C9AE5E9B773815A03BC587B91D5C4 /* UIColor+WNJChannelHelper.m */,
+				93D44DCB025972AF6B6D8791BB93AFAB /* WNJChannelEditController.h */,
+				0A8140126AB24D1EAE73AC89E7B6A079 /* WNJChannelEditController.m */,
+				4647A1BB00321906CB837EEF29693728 /* WNJChannelUnitModel.h */,
+				059E0FCDDAC29660EF1A8264C5617F55 /* WNJChannelUnitModel.m */,
+				2D014711E506A8ADF3D14920AAD93175 /* WNJTouchView.h */,
+				4B19FC0FE7BB3D0B844FDC83BD0684D8 /* WNJTouchView.m */,
+				884DD0916257A0BD097DD8F9BD15049E /* Pod */,
+				5A48E3D57EFF3C45045421CF82373445 /* Resources */,
+				3F6B59E4D2FE73AAF0ACAFDC0EC97B67 /* Support Files */,
 			);
-			name = Pod;
+			name = WNJChannelEditController;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		3E4B46F69CFC918F083E0347FBDF078C /* Support Files */ = {
@@ -349,39 +308,20 @@
 			path = "../Target Support Files/EZBundleHelp";
 			sourceTree = "<group>";
 		};
-		4AFEBAE4A344F49EF92EFE92978AB37E /* Resources */ = {
+		3F6B59E4D2FE73AAF0ACAFDC0EC97B67 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FD634186ED46F9A845FB8DFA84DB69EB /* close.png */,
-				C56BD578B17B03F232399C41CA634479 /* close-1.png */,
-				47DC48FB099D2B7A9DA8D594120BD831 /* close-1@2x.png */,
-				8EAD2556985451DC1242482F51503EE0 /* close-1@3x.png */,
-				5EA66AFAB8B731BC361100B20142C212 /* close@2x.png */,
-				F8A62687004F35763BB6144A4FE0AD43 /* close@3x.png */,
-				4821E491CDA5B875B701252BA33AFEBF /* del.png */,
-				319C4268B37342B3E15F300C0AA4659F /* del@2x.png */,
-				573139658A526767A6BDD03C5FF19188 /* del@3x.png */,
-				8350494218BB3C87060980119A892EB8 /* finsh.png */,
-				6F689663FCD28B5C6B6DD34DD7CB997E /* finsh-1.png */,
-				357F4A964423E232EE187B6272BCB35A /* finsh-1@2x.png */,
-				838CEF59ED561841A39F2099253E6FC1 /* finsh-1@3x.png */,
-				75877D54EE31464C4541D3B52F6A0FE5 /* finsh@2x.png */,
-				67D8D377054685327DE729EEE59FBF24 /* finsh@3x.png */,
-				FA2A43976411B40767FB288F20A897B8 /* lanmu.png */,
-				BF1014A6836217A070162DCEF5E86ED5 /* lanmu2.png */,
-				9D8ED4105E050FB44A758394B042BEE4 /* lanmu2@2x.png */,
-				211C966AC8ADCD06E3E609F6B0F1DD3C /* lanmu2@3x.png */,
-				984A854D84FAAA91144404338DF35D68 /* lanmu@2x.png */,
-				FF988BD385EE8B8200B2DB9FE48199A0 /* lanmu@3x.png */,
-				824F6F95C7E9FF2CF8919BE2A0348B98 /* reorder.png */,
-				64501A1F3EE2D38ADA92002C3888A438 /* reorder-1.png */,
-				A94D58C9975F42D76F31F85779DDE968 /* reorder-1@2x.png */,
-				6064AB1FE53DBEDD03084A5B5126FDFB /* reorder-1@3x.png */,
-				A7A9AE6E8DE1FDAD9E078DBB21D95A6E /* reorder@2x.png */,
-				F4F1991FDC299620C194F9974CDB1B90 /* reorder@3x.png */,
-				C17F5AC210C37FAE6D51766FF54F2482 /* WNJChannelEditController.xib */,
+				5B7EF551588EAEE43CA19A47F1F1E89C /* ResourceBundle-WNJChannelEditController-WNJChannelEditController-Info.plist */,
+				C01EAB64E5F49EBD2CC29F78948CD7A1 /* WNJChannelEditController.modulemap */,
+				5F78FC25DA7098455C85604D8086BBF6 /* WNJChannelEditController-dummy.m */,
+				4D2DA5079CD5DB36BACD3BB34D750EA8 /* WNJChannelEditController-Info.plist */,
+				DDD7A75C882D5E8E9E5783DCCCC61D34 /* WNJChannelEditController-prefix.pch */,
+				6E974AFEDA8E021740444DE53092532A /* WNJChannelEditController-umbrella.h */,
+				72AF453F1A958167F9CEB7FD112470ED /* WNJChannelEditController.debug.xcconfig */,
+				E8FC4E52B62BC25D220A2A745C332304 /* WNJChannelEditController.release.xcconfig */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WNJChannelEditController";
 			sourceTree = "<group>";
 		};
 		4C59747E5D1729B9955ED17FDE25243B /* Masonry */ = {
@@ -441,6 +381,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5A48E3D57EFF3C45045421CF82373445 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9D9BB3FF402B8A865CB336FD3D396F9A /* Resource.xcassets */,
+				D6D2F3E5F50506B8005745C030C5D3E0 /* WNJChannelEditController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		7305412BF508867753D8B39F7EC4C808 /* Pods-WNJChannelEditController_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -460,7 +409,7 @@
 		7CB1345D46570792178F0818B6F3D0B5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AC7675037927EF4B020B2F17B6E628BD /* WNJChannelEditController */,
+				04C816E4C6388B4705D4F4C6A2278C84 /* WNJChannelEditController */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -487,6 +436,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		884DD0916257A0BD097DD8F9BD15049E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EE06B3C22F4313041273B18B6349B603 /* LICENSE */,
+				7148DD959B4DB99335337380E18DB971 /* README.md */,
+				1FCE4343300124DA08B5E562605B12A9 /* WNJChannelEditController.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		9EFE5F444BF8EB161CF57FB42C5980B8 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -505,27 +464,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		AC7675037927EF4B020B2F17B6E628BD /* WNJChannelEditController */ = {
-			isa = PBXGroup;
-			children = (
-				DDD2BF722CDADAE4EBE5D13281D48FF2 /* Target_WNJChannelEditController.h */,
-				D6F2D459EE72A5AFA5089D8836519BF4 /* Target_WNJChannelEditController.m */,
-				BD8AE2128114FFF26E574742BC5AF5A6 /* UIColor+WNJChannelHelper.h */,
-				9A794C7BF22F2CBBFEA4D3980163A30B /* UIColor+WNJChannelHelper.m */,
-				20C9CD5C763CEB474667EE5A0A976713 /* WNJChannelEditController.h */,
-				2B6F74D44E133AD900C3C8063D2FEB79 /* WNJChannelEditController.m */,
-				537F6DDBA1FE70D6CE3B71DCC1BAE7E7 /* WNJChannelUnitModel.h */,
-				A112C6AD1A78C24044CE5E4DA84CF6FF /* WNJChannelUnitModel.m */,
-				74CDCF5529FA12176CC48E0FC317159C /* WNJTouchView.h */,
-				BCB7EF5DFC21EB87FD036FA41B26DF76 /* WNJTouchView.m */,
-				2367A12A3A201C29903A414C769FF649 /* Pod */,
-				4AFEBAE4A344F49EF92EFE92978AB37E /* Resources */,
-				BFF7F05D384871CD848582DF17B90290 /* Support Files */,
-			);
-			name = WNJChannelEditController;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		B1F26685FB46937CC60C348CF58F01F7 /* Pods-WNJChannelEditController_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -541,22 +479,6 @@
 			);
 			name = "Pods-WNJChannelEditController_Example";
 			path = "Target Support Files/Pods-WNJChannelEditController_Example";
-			sourceTree = "<group>";
-		};
-		BFF7F05D384871CD848582DF17B90290 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				233927F4EF30EC7A6A3D9A29B4C0480D /* ResourceBundle-WNJChannelEditController-WNJChannelEditController-Info.plist */,
-				4B804F458381AC4D998DFEC58B79DB5D /* WNJChannelEditController.modulemap */,
-				304949B0B6DAAF7A3E1F552048DF76EF /* WNJChannelEditController-dummy.m */,
-				F3148C5A90267D23D658D5235D580137 /* WNJChannelEditController-Info.plist */,
-				C2C5352E7E0794D8660ED1AB807ECDE4 /* WNJChannelEditController-prefix.pch */,
-				EEC4A730677CBC99A92AD24E026712C5 /* WNJChannelEditController-umbrella.h */,
-				2D1964BA7076E340FDB6BFE8A45D78A5 /* WNJChannelEditController.debug.xcconfig */,
-				D1017939F13159B94B67313003CC3B7A /* WNJChannelEditController.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WNJChannelEditController";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -684,9 +606,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				42321ED239F291D18DAEA5E658BFFD47 /* PBXTargetDependency */,
-				C17903A64C806D20302CD28FBEF9CB46 /* PBXTargetDependency */,
-				19AD0A9DABF7E882F8C38660902250D2 /* PBXTargetDependency */,
+				E5E6D12AB18256AC8D73CE5DEE8AD0FB /* PBXTargetDependency */,
+				4C52A43D70DC0B59028AB48614C3E3DB /* PBXTargetDependency */,
+				75FFA7A7E1BD18A26B4A1E741B0FE724 /* PBXTargetDependency */,
 			);
 			name = WNJChannelEditController;
 			productName = WNJChannelEditController;
@@ -705,7 +627,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				093E9A40628B2C7C78F6D1849291C5DD /* PBXTargetDependency */,
+				5B8EC164C4729AA71F4332298694295F /* PBXTargetDependency */,
 			);
 			name = "Pods-WNJChannelEditController_Tests";
 			productName = "Pods-WNJChannelEditController_Tests";
@@ -724,9 +646,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				F6D118508C8C7D1E1DCA9D8E6BC13FDD /* PBXTargetDependency */,
-				23320C4E012E5E28ACB52115E6E6ADB9 /* PBXTargetDependency */,
-				84FBB7AE2DDB09AC5C47F5808A9986E5 /* PBXTargetDependency */,
+				4BECFB0128E42CDD9CE83B3A9B639FE9 /* PBXTargetDependency */,
+				3F6C71E21B08254B93FE1E0A3D777339 /* PBXTargetDependency */,
+				DF99F4A2DE4F6D944A8A79F7950CDDD1 /* PBXTargetDependency */,
 			);
 			name = "Pods-WNJChannelEditController_Example";
 			productName = "Pods-WNJChannelEditController_Example";
@@ -753,11 +675,11 @@
 		};
 		DC412B9B50BB87A5020AE4B84149DE0F /* WNJChannelEditController-WNJChannelEditController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB51BF63CB869D07D7302EC85CFC932B /* Build configuration list for PBXNativeTarget "WNJChannelEditController-WNJChannelEditController" */;
+			buildConfigurationList = FD1D3F7EFAABD913B18885A33EE1A646 /* Build configuration list for PBXNativeTarget "WNJChannelEditController-WNJChannelEditController" */;
 			buildPhases = (
-				E80BEAB2128AACEBA7CFAA66E7C9B115 /* Sources */,
-				05B6D23AADE24C3A4D60E317264E2E24 /* Frameworks */,
-				1FEF7856B4A2BA09496F9573CDCB4E08 /* Resources */,
+				491230BC268CD1899FED5BFC84A16A06 /* Sources */,
+				2BF6BA41E86A175D5A2111032E01F2FF /* Frameworks */,
+				3F0D54EA88D8FE05ACA707AF35B17112 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -801,38 +723,12 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1FEF7856B4A2BA09496F9573CDCB4E08 /* Resources */ = {
+		3F0D54EA88D8FE05ACA707AF35B17112 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FDC91B2DB5CA74FA91202AFC6681C26 /* close-1.png in Resources */,
-				3A96B388CA495575A1504EBA993D79A0 /* close-1@2x.png in Resources */,
-				298438CDBE173DC2B9C3B562B9D565AB /* close-1@3x.png in Resources */,
-				F0FD2A8BFAD4AA12BF7A247D5AAB493C /* close.png in Resources */,
-				99D7A966B562C9D0EDB8BC50CB0081B2 /* close@2x.png in Resources */,
-				FCA34F0B76EA796820F6181A182B2D16 /* close@3x.png in Resources */,
-				C444F971BE15A3A0EBA8DF4596B0564F /* del.png in Resources */,
-				5B3ED780BD5CE98694DD8D86244C0557 /* del@2x.png in Resources */,
-				E55ED81DF7FEDB4DBD11DE9F0D7AF537 /* del@3x.png in Resources */,
-				CD9BD12BF200A7FF1EF2B99E963B28BF /* finsh-1.png in Resources */,
-				6FC8566984BED2BC4D2828F0C7764B04 /* finsh-1@2x.png in Resources */,
-				31430E554F93ACF64C816989358526F3 /* finsh-1@3x.png in Resources */,
-				1516B9255E2C4C26DD53FF2E50416E6F /* finsh.png in Resources */,
-				C833D7EC06E57E168EBF3D6B5A775C1B /* finsh@2x.png in Resources */,
-				FFB3D673AE868DC2EA1AFA86F02032FD /* finsh@3x.png in Resources */,
-				BCB14845B8D66430ECB8DBB3FED1B828 /* lanmu.png in Resources */,
-				653511EB49693FB25667230C30DD8F87 /* lanmu2.png in Resources */,
-				B6357137FFFBB134D30B47CEC0F6208D /* lanmu2@2x.png in Resources */,
-				FC70B5FF4ACAD81F38AB0DD3F4CB1673 /* lanmu2@3x.png in Resources */,
-				0310EB0C64DA57D8BE44E77AAC4D43D6 /* lanmu@2x.png in Resources */,
-				5C43DF8313F3C8C7259149C411C65781 /* lanmu@3x.png in Resources */,
-				79E2F515C3ECC740130D5CE6E2FA4954 /* reorder-1.png in Resources */,
-				D1B8CAE7729857D876C7974FA502765B /* reorder-1@2x.png in Resources */,
-				0E587A635A0AC2B969D8A24598AE34F7 /* reorder-1@3x.png in Resources */,
-				828AAABD7254B1BADDF9B240CEC6423A /* reorder.png in Resources */,
-				4E6EB4E7A67142BE799EE193E1EDD891 /* reorder@2x.png in Resources */,
-				473D2087BF11AB9D8F71A4BC017E5103 /* reorder@3x.png in Resources */,
-				DF90893713FE4D8049FC8CFC0E1946ED /* WNJChannelEditController.xib in Resources */,
+				587A2F9B3A87E4770FCA02A63D62BBC4 /* Resource.xcassets in Resources */,
+				AB2B4FC2AE06CC79B3B66C0634F757E3 /* WNJChannelEditController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -906,6 +802,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		491230BC268CD1899FED5BFC84A16A06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5554582DB4BF35C44CCA0A5177843493 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -932,77 +835,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E80BEAB2128AACEBA7CFAA66E7C9B115 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		093E9A40628B2C7C78F6D1849291C5DD /* PBXTargetDependency */ = {
+		3F6C71E21B08254B93FE1E0A3D777339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 003CD06516E3837991E46A27979B9426 /* PBXContainerItemProxy */;
+		};
+		4BECFB0128E42CDD9CE83B3A9B639FE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EZBundleHelp;
+			target = B8B2B1784AEBCA49250CFF4F7F61DE55 /* EZBundleHelp */;
+			targetProxy = 1853682713E2DBBBE7A57EFA209EBAED /* PBXContainerItemProxy */;
+		};
+		4C52A43D70DC0B59028AB48614C3E3DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 43285AEB7A1560139EC624CE4DC77BA1 /* PBXContainerItemProxy */;
+		};
+		5B8EC164C4729AA71F4332298694295F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-WNJChannelEditController_Example";
 			target = B11B780D7CC1EF3607CF364AAFAB2D8B /* Pods-WNJChannelEditController_Example */;
-			targetProxy = 1C5BDAFF3E4B8FD9825B17A76819176D /* PBXContainerItemProxy */;
+			targetProxy = E652EB50F83AE99A5A4BAE3A9357A0DC /* PBXContainerItemProxy */;
 		};
-		19AD0A9DABF7E882F8C38660902250D2 /* PBXTargetDependency */ = {
+		75FFA7A7E1BD18A26B4A1E741B0FE724 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "WNJChannelEditController-WNJChannelEditController";
 			target = DC412B9B50BB87A5020AE4B84149DE0F /* WNJChannelEditController-WNJChannelEditController */;
-			targetProxy = DC6494563B369C11AC61268F4825E6DC /* PBXContainerItemProxy */;
+			targetProxy = 773EDE132018CAB0049D2B2C6B71AE12 /* PBXContainerItemProxy */;
 		};
-		23320C4E012E5E28ACB52115E6E6ADB9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = F6F6AD6A3088154263533C3D5290F58C /* PBXContainerItemProxy */;
-		};
-		42321ED239F291D18DAEA5E658BFFD47 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = EZBundleHelp;
-			target = B8B2B1784AEBCA49250CFF4F7F61DE55 /* EZBundleHelp */;
-			targetProxy = 4094FC5FCFB4495122A59078CE360E42 /* PBXContainerItemProxy */;
-		};
-		84FBB7AE2DDB09AC5C47F5808A9986E5 /* PBXTargetDependency */ = {
+		DF99F4A2DE4F6D944A8A79F7950CDDD1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WNJChannelEditController;
 			target = A56F21C19F7B66775771DCE7859187B9 /* WNJChannelEditController */;
-			targetProxy = 15AEC943CF515AD0C93EA8596B4C0B65 /* PBXContainerItemProxy */;
+			targetProxy = 546EA120B208958F5A57ECB836D5F272 /* PBXContainerItemProxy */;
 		};
-		C17903A64C806D20302CD28FBEF9CB46 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 14DBD3B0037375848BC270373CA66351 /* PBXContainerItemProxy */;
-		};
-		F6D118508C8C7D1E1DCA9D8E6BC13FDD /* PBXTargetDependency */ = {
+		E5E6D12AB18256AC8D73CE5DEE8AD0FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EZBundleHelp;
 			target = B8B2B1784AEBCA49250CFF4F7F61DE55 /* EZBundleHelp */;
-			targetProxy = 2D9566F98D2EB22224D8759107FA81BC /* PBXContainerItemProxy */;
+			targetProxy = 00118D2F36840F959B8222D389991265 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		032FE1E5838B8976875AFDC7E09EDC98 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1017939F13159B94B67313003CC3B7A /* WNJChannelEditController.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WNJChannelEditController";
-				IBSC_MODULE = WNJChannelEditController;
-				INFOPLIST_FILE = "Target Support Files/WNJChannelEditController/ResourceBundle-WNJChannelEditController-WNJChannelEditController-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = WNJChannelEditController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		0B89529A062CE084D54D9BC33ED6D25F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1064,6 +944,22 @@
 			};
 			name = Release;
 		};
+		1CE180B68A1EB1E37B090A2A6C701DC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8FC4E52B62BC25D220A2A745C332304 /* WNJChannelEditController.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WNJChannelEditController";
+				IBSC_MODULE = WNJChannelEditController;
+				INFOPLIST_FILE = "Target Support Files/WNJChannelEditController/ResourceBundle-WNJChannelEditController-WNJChannelEditController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WNJChannelEditController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		3EC47282301B36CAFFEA4A91E34B670D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2916A28E28904D1FF8DD357F6D319138 /* EZBundleHelp.debug.xcconfig */;
@@ -1096,7 +992,7 @@
 		};
 		42FB148DD6B22106662C01E21D1614F0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1017939F13159B94B67313003CC3B7A /* WNJChannelEditController.release.xcconfig */;
+			baseConfigurationReference = E8FC4E52B62BC25D220A2A745C332304 /* WNJChannelEditController.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1124,6 +1020,22 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		491E1BE1CC1B3D4A5471EAAD99763C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72AF453F1A958167F9CEB7FD112470ED /* WNJChannelEditController.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WNJChannelEditController";
+				IBSC_MODULE = WNJChannelEditController;
+				INFOPLIST_FILE = "Target Support Files/WNJChannelEditController/ResourceBundle-WNJChannelEditController-WNJChannelEditController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WNJChannelEditController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		4BBF03A5B497D6828832BF1469F1C764 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1322,7 +1234,7 @@
 		};
 		8BC8EEFABB20F2412D532CD6E02D026D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D1964BA7076E340FDB6BFE8A45D78A5 /* WNJChannelEditController.debug.xcconfig */;
+			baseConfigurationReference = 72AF453F1A958167F9CEB7FD112470ED /* WNJChannelEditController.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1347,22 +1259,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9131E45590056B6CA2194D8FC7BA7C9C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D1964BA7076E340FDB6BFE8A45D78A5 /* WNJChannelEditController.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WNJChannelEditController";
-				IBSC_MODULE = WNJChannelEditController;
-				INFOPLIST_FILE = "Target Support Files/WNJChannelEditController/ResourceBundle-WNJChannelEditController-WNJChannelEditController-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = WNJChannelEditController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -1515,11 +1411,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB51BF63CB869D07D7302EC85CFC932B /* Build configuration list for PBXNativeTarget "WNJChannelEditController-WNJChannelEditController" */ = {
+		FD1D3F7EFAABD913B18885A33EE1A646 /* Build configuration list for PBXNativeTarget "WNJChannelEditController-WNJChannelEditController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9131E45590056B6CA2194D8FC7BA7C9C /* Debug */,
-				032FE1E5838B8976875AFDC7E09EDC98 /* Release */,
+				491E1BE1CC1B3D4A5471EAAD99763C80 /* Debug */,
+				1CE180B68A1EB1E37B090A2A6C701DC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

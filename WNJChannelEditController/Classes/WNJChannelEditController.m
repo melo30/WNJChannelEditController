@@ -487,7 +487,7 @@
     if (!_clearView) {
         _clearView = [[WNJTouchView alloc] init];
         UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(5, 5, ButtonWidth - 10, ButtonHeight - 10)];
-        imageView.image = [UIImage bundleKey:@"WNJChannelEditController" imageName:@"lanmu2"];
+        imageView.image = [UIImage bundleKey:@"WNJChannelEditController" imageName:@"WNJChannelEdit_lanmu2"];
         [_clearView addSubview:imageView];
         _clearView.backgroundColor = [UIColor clearColor];
         [_clearView.contentLabel removeFromSuperview];
