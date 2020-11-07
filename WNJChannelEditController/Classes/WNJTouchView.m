@@ -7,7 +7,7 @@
 //
 
 #import "WNJTouchView.h"
-#import "UIImage+MJBundleHelp.h"
+#import "UIImage+EZBundleHelp.h"
 
 @implementation WNJTouchView
 

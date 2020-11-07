@@ -7,8 +7,8 @@
 //
 
 #import "WNJTouchView.h"
-#import "UIImage+MJBundleHelp.h"
-#import "NSBundle+MJBundleHelp.h"
+#import "UIImage+EZBundleHelp.h"
+#import "NSBundle+EZBundleHelp.h"
 #import "WNJChannelUnitModel.h"
 #import "WNJChannelEditController.h"
 #import "Masonry.h"
