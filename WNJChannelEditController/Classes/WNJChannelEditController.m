@@ -8,6 +8,7 @@
 
 #import "WNJTouchView.h"
 #import "UIImage+MJBundleHelp.h"
+#import "NSBundle+MJBundleHelp.h"
 #import "WNJChannelUnitModel.h"
 #import "WNJChannelEditController.h"
 #import "Masonry.h"
@@ -65,8 +66,8 @@
 
 @implementation WNJChannelEditController
 
--(id)initWithTopDataSource:(NSArray<WNJChannelUnitModel *> *)topDataArr andBottomDataSource:(NSArray<WNJChannelUnitModel *> *)bottomDataSource andInitialIndex:(NSInteger)initialIndex{
-    if (self = [super initWithNibName:@"WNJChannelEditController" bundle:[NSBundle bundleForClass:self.class]]) {
+- (id)initWithTopDataSource:(NSArray<WNJChannelUnitModel *> *)topDataArr andBottomDataSource:(NSArray<WNJChannelUnitModel *> *)bottomDataSource andInitialIndex:(NSInteger)initialIndex{
+    if (self = [super initWithNibName:@"WNJChannelEditController" bundle:[NSBundle getCurrentBundleWithKey:@"WNJChannelEditController"]]) {
         self.topDataSource = [NSMutableArray arrayWithArray:topDataArr];
         self.bottomDataSource = [NSMutableArray arrayWithArray:bottomDataSource];
         self.locationIndex = initialIndex;
